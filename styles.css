@@ -6,3 +6,27 @@ header{
     background-color: #120323;
     color: #97bf04
 }
+
+figure{
+    background-color: #d9043d;
+    padding: 1fr}
+
+aside{
+    background-color: #97bf04;
+}
+
+footer{
+    background-color: #d9043d;
+}
+
+@media screen and (max-width: 760px) {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
+
+@media screen and (min-width: 1000px) {
+    
+}
