@@ -2,6 +2,13 @@
     box-sizing: border-box;
 }
 
+/* # is for id . is for class*/
+#container{
+    padding: 0px;
+    margin: 0px;
+
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,13 +16,11 @@ body{
 header{
     background-color: #120323;
     color: #97bf04;
-    display: flex;
-    justify-content: center;
 }
 
 figure img{
     background-color: #d9043d;
-    padding: 5px
+    padding: 5px;
 }
 
 aside{
@@ -26,7 +31,7 @@ aside{
 footer{
     background-color: #d9043d;
     text-align: center;
-    width: 100vw;
+    padding: 100vw;
 }
 
 /* mobile*/
@@ -38,14 +43,11 @@ footer{
    }
 
 /* devices > 1000px*/
-@media screen and (max-width: 1000px) {
+@media (min-width: 761px) and (max-width: 1000px) {
     figure img{
         max-width: 300px;
     }
-    figure{
-        display: flex;
-        flex-direction: column;
-    }
+
     
 }
 
