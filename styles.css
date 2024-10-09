@@ -11,6 +11,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
 }
 
 header{
@@ -31,7 +32,7 @@ aside{
 footer{
     background-color: #d9043d;
     text-align: center;
-    padding: 100vw;
+    padding: 20px;
 }
 
 /* mobile*/
@@ -39,6 +40,7 @@ footer{
    figure img{
     max-width: 100%;
    }
+   
 
    }
 
