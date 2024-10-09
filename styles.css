@@ -4,12 +4,15 @@
 
 header{
     background-color: #120323;
-    color: #97bf04
+    color: #97bf04;
+    display: flex;
+    justify-content: center;
 }
 
-figure{
+figure img{
     background-color: #d9043d;
-    padding: 1fr}
+    padding: 5px
+}
 
 aside{
     background-color: #97bf04;
@@ -19,14 +22,35 @@ footer{
     background-color: #d9043d;
 }
 
+/* mobile*/
 @media screen and (max-width: 760px) {
-    
-}
+   figure img{
+    float: center;
+    max-width: 100%;
+   }
 
+   }
+
+/* devices > 1000px*/
 @media screen and (max-width: 1000px) {
+    figure img{
+        max-width: 300px;
+    }
+    figure{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
     
 }
 
+/* devices < 1000px*/
 @media screen and (min-width: 1000px) {
     
 }
+
+/* to do:
+border colours taking up 100% width @ bottom of page
+centering header
+3 coloumn layout, aside on left side for >1000px
+*/
