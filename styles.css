@@ -20,10 +20,13 @@ figure img{
 
 aside{
     background-color: #97bf04;
+    width: 100vw;
 }
 
 footer{
     background-color: #d9043d;
+    text-align: center;
+    width: 100vw;
 }
 
 /* mobile*/
