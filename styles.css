@@ -51,7 +51,10 @@ footer{
     padding-top: 20px;
 
    }
-   
+
+   aside{
+    margin-bottom: 10px;
+   }
 
    }
 
@@ -85,6 +88,10 @@ footer{
     .header-container img{
         padding-right: 15px;
     }
+    
+    aside{
+        margin-bottom: 10px;
+       }
 }
 
 /* devices < 1000px*/
