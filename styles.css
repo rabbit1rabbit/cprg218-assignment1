@@ -17,6 +17,9 @@ body{
 header{
     background-color: #120323;
     color: #97bf04;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 figure img{
@@ -32,12 +35,13 @@ aside{
 
 footer{
     background-color: #d9043d;
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
 /* mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
    figure img{
     max-width: 100%;
    }
@@ -55,9 +59,11 @@ footer{
    }
 
 /* devices > 1000px*/
-@media (min-width: 769px) and (max-width: 1000px) {
+@media (min-width: 768px) and (max-width: 1000px) {
     figure img{
+        height: max-content;
         max-width: 300px;
+
     }
 
     figure{
@@ -66,15 +72,35 @@ footer{
         
     }
     
+    figcaption{
+        padding-left: 15px;
+    }
+
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    
+       }
+
 }
 
 /* devices < 1000px*/
 @media screen and (min-width: 1000px) {
+    .header-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    
+       }
     
 }
 
 /* to do:
-border colours taking up 100% width @ bottom of page
-centering header
+centering header on desktop
 3 coloumn layout, aside on left side for >1000px
 */
