@@ -61,7 +61,7 @@ footer{
 /* devices > 1000px*/
 @media (min-width: 768px) and (max-width: 1000px) {
     figure img{
-        height: max-content;
+        height: 100%;
         max-width: 300px;
 
     }
@@ -128,7 +128,7 @@ footer{
     }
 
     figure img{
-        height: max-content;
+        height: 100%;
         max-width: 300px;
     }
 
