@@ -17,9 +17,6 @@ body{
 header{
     background-color: #120323;
     color: #97bf04;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 }
 
 figure img{
@@ -82,9 +79,12 @@ footer{
         align-items: center;
         justify-content: center;
         padding: 20px;
-    
+        
        }
 
+    .header-container img{
+        padding-right: 15px;
+    }
 }
 
 /* devices < 1000px*/
@@ -97,10 +97,36 @@ footer{
         padding: 20px;
     
        }
+
+    .header-container img{
+        padding-right: 15px;
+    }
+
+    #container{
+        display: flex;
+        justify-content: space-evenly;
+       }
+
+    main{
+        padding: 10px;
+    }
+
+    figure{
+        display: flex;
+        flex-direction: row;
+    }
+
+    figcaption{
+        padding-left: 15px;
+    }
+
+    figure img{
+        height: max-content;
+        max-width: 300px;
+    }
+
+    aside{
+        margin: 10px;
+    }
     
 }
-
-/* to do:
-centering header on desktop
-3 coloumn layout, aside on left side for >1000px
-*/
